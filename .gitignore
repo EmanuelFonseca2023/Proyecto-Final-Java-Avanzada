@@ -1,39 +1,36 @@
+### Maven ###
+# Lo que genera la compilacion (se regenera solo)
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
+dependency-reduced-pom.xml
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# Ajustes personales del IDE (la fuente de verdad es el pom.xml)
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+### Archivos que genera el programa al ejecutarse ###
+sistema.dat
+Cierre_*.txt
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+### Sistema operativo ###
 .DS_Store
+Thumbs.db
+
+### Otros editores (por si alguien del grupo los usa) ###
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+nbproject/private/
+nbbuild/
+dist/
+build/
+
+### Registros de errores de Java ###
+*.log
+hs_err_pid*
