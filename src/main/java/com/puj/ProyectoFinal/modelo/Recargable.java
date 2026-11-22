@@ -1,0 +1,8 @@
+package com.puj.ProyectoFinal.modelo;
+
+public interface Recargable {
+
+    long COSTO_MINUTO = 50;
+
+    long costoRecarga(long minutos);
+}
