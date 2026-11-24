@@ -1,0 +1,8 @@
+CIERRE 2026-03-02
+tiquetes=6
+parqueo=28900
+recarga=21250
+total=50150
+CARRO tiquetes=3 total=6600
+MOTO tiquetes=1 total=8800
+ELECTRICO tiquetes=2 total=34750

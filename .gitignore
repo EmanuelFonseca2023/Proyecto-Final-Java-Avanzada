@@ -12,8 +12,10 @@ dependency-reduced-pom.xml
 out/
 
 ### Archivos que genera el programa al ejecutarse ###
-sistema.dat
-Cierre_*.txt
+# Permitidos para subir datos/cierres de ejemplo al repo:
+# sistema.dat
+# Cierre_*.txt
+# (Si prefieres ignorar futuros cierres pero mantener los actuales, coméntalos y haz git add explícito)
 
 ### Sistema operativo ###
 .DS_Store
