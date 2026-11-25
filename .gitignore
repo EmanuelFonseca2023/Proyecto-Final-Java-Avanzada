@@ -1,8 +1,4 @@
 ### Maven ###
-# Lo que genera la compilacion (se regenera solo)
-target/
-dependency-reduced-pom.xml
-
 ### IntelliJ IDEA ###
 # Ajustes personales del IDE (la fuente de verdad es el pom.xml)
 .idea/
